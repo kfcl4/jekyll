@@ -1,8 +1,8 @@
 ---
-name: Vega Lite Example Project
+name: HW8.1
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+description: HW8.1
 custom_js:
   - vega.min
   - vega-lite.min
@@ -43,7 +43,7 @@ Below is where we can put some links to both the data and the analysis code as b
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/licenses_fall2022.csv" text="The Data" %}
 </div>
 
 <div class="right">
