@@ -60,18 +60,7 @@ plot2:The visualization focuses on the distribution of licenses across counties,
 </html>
 
 
-## Search The Data & Methods
 
-Below is where we can put some links to both the data and the analysis code as buttons:
-
-```
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
-</div>
 ```
 
 <!-- these are written in a combo of html and liquid --> 
