@@ -13,17 +13,9 @@ custom_js:
 
 # HW8.1
 
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
+plot1:This visualization presents the distribution of license statuses, highlighting the number of licenses per status. It uses bar encoding with license status on the x-axis and counts on the y-axis, utilizing interaction for enhanced detail visibility. The color scheme I used,steelblue  for active selection and light gray otherwise,improves focus on specific data points. No data transformations are used, but the chosen interactivity enriches the user experience by dynamically displaying detailed information, such as count per status, making the visualization clearer and user engaging.
 
-We can use a vegachart HTML tag like so:
-
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-```
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-
-In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
+plot2:The visualization focuses on the distribution of licenses across counties, highlighting variations in license counts. My design makes use of a vertical bar chart with bars representing counties, sorted by license count to emphasize regions with higher or lower license activity.Vertical bar chart makes usre that user can gain information clearly.Color is applied conditionally to enhance interactivity: the selected areas will turn steelblue, offering a visual contrast against non-selected bars in grey, improving clarity and focus. The tooltip interactivity  provids detailed information about each county's license count, making the visualization more informative and engaging.
 
 <!DOCTYPE html>
 <html>
