@@ -2,7 +2,7 @@
 name: HW8
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+description: IS445 HW8
 custom_js:
   - vega.min
   - vega-lite.min
