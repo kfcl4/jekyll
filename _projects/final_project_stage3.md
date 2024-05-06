@@ -1,6 +1,6 @@
 ---
 name: Final project stage 3
-tools: [Python, HTML, vega-lite]
+tools: [Python]
 
 ---
 
