@@ -11,11 +11,13 @@ custom_js:
 ---
 
 
-# Example including vega-lite
-
-Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb).
-
-We can use a vegachart HTML tag like so:
+We used geopandas to create a geographical plot of the earthquake events. You can see the 
+earthquakes on the map, they are color coded by the magnitude and sized by depth. Users can 
+use this visualization to gain insights into earthquake occurrences and their spatial distribution 
+such as identifying high seismic regions. The patterns can be analyzed to see if there is 
+correlation between earthquakes’ magnitude, depth, and geographic locations. Users can 
+assess the impacts of recent earthquakes, which can help with disaster preparedness and 
+responses
 
 ```
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
