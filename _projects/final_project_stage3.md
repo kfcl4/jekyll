@@ -40,7 +40,7 @@ responses
     }
   </style>
   <div id="container">
-    <iframe id="iframe" sandbox="allow-scripts" src="/_projects/visualization_2(1).html"></iframe>
+    <iframe id="iframe" sandbox="allow-scripts" src="/asset/visualization_2.html"></iframe>
   </div>
 </body>
 
