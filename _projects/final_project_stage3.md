@@ -14,7 +14,7 @@ assess the impacts of recent earthquakes, which can help with disaster preparedn
 responses
 
 
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,3 +69,4 @@ responses
     </script>
 </body>
 </html>
+```
