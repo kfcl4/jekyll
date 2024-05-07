@@ -46,5 +46,6 @@ Below is where we can put some links to both the data and the analysis code as b
 {% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
 </div>
 
-
+<html>
 <iframe id="map" src="visualization_2(1).html" width="100%" height="500"></iframe>
+</html>
