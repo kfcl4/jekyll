@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Controls for Map</title>
+</head>
+<body>
+    <div id="controls">
+        <label for="magnitude">Magnitude:</label>
+        <input type="range" id="magnitude" name="magnitude" min="1" max="7" value="3" oninput="updateControls()">
+        
+        <label for="magtype">Magnitude Type:</label>
+        <select id="magtype" name="magtype" onchange="updateControls()">
+            <option value="ml">ml</option>
+            <option value="md">md</option>
+            <option value="mb">mb</option>
+            <option value="mww">mww</option>
+            <option value="mb_lg">mb_lg</option>
+            <option value="mh">mh</option>
+            <option value="mwr">mwr</option>
+            <option value="mw">mw</option>
+        </select>
+    </div>
+
+    <script>
+        function updateControls() {
+            var magnitude = document.getElementById('magnitude').value;
+            var magtype = document.getElementById('magtype').value;
+            parent.postMessage({ magnitude: magnitude, magtype: magtype }, "*");
+        }
+    </script>
+</body>
+</html>
